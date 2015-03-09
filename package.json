@@ -1,0 +1,47 @@
+{
+  "name": "JsTuts",
+  "version": "0.0.1",
+  "description": "JsTuts",
+  "author": {
+    "name": "Faradey"
+  },
+  "private": true,
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack -d --watch --colors"
+  },
+  "dependencies": {
+    "axios": "*",
+    "bootstrap": "*",
+    "classnames": "^1.1.4",
+    "express": "*",
+    "fluxxor": "*",
+    "font-awesome": "*",
+    "gettext.js": "*",
+    "jquery": "*",
+    "localStorage": "*",
+    "lodash": "*",
+    "moment": "*",
+    "q": "*",
+    "react": "*",
+    "react-bootstrap": "*",
+    "react-router": "*",
+    "react-tap-event-plugin": "*",
+    "uuid-v4": "*"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^1.1.0",
+    "css-loader": "*",
+    "jshint-loader": "*",
+    "json-loader": "*",
+    "jsx-loader": "*",
+    "less-loader": "*",
+    "po-loader": "*",
+    "react-hot-loader": "*",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "traceur-loader": "*",
+    "url-loader": "*",
+    "webpack": "*"
+  }
+}

@@ -1,0 +1,11 @@
+.MainPage {
+    width: 100%;
+    position: relative;
+    transition: transform 200ms linear;
+    min-width: 300px;
+}
+
+.MainPage.move {
+    transform: translateY(440px);
+    transition: transform 200ms linear;
+}

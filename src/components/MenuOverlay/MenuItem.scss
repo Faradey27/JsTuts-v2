@@ -1,0 +1,21 @@
+.MenuItem {
+    color: #fff;
+    height: 100%;
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+    letter-spacing: .025em;
+}
+
+.MenuItem:hover {
+    color: #8c9094;
+}

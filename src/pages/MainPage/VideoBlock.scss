@@ -1,0 +1,109 @@
+.VideoBlock {
+    background: url('VideoBlock/division.png') bottom center no-repeat #f7f8f9;
+    padding: 100px 0 75px 0;
+    text-align: center;
+    width: 100%;
+    float: left;
+
+    .centered {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .textBlock {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 700px;
+        }
+
+        .video {
+            display: inline-block;
+            width: 897px;
+            height: 478px;
+            margin: 50px 0 0 0;
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .preroll {
+                background-size: 100% auto;
+                background: url('VideoBlock/canvas.png') center no-repeat;
+                float: left;
+                width: 100%;
+                height: 100%;
+                position: relative;
+                z-index: 2;
+
+                a {
+                    float: left;
+                    width: 100%;
+                    height: 100%;
+                    text-indent: -9000px;
+                    overflow: hidden;
+                    background: url('VideoBlock/videoPlay.png') center no-repeat;
+                    cursor: pointer;
+                }
+            }
+
+            @media (max-width: 800px) {
+                .preroll {
+                    background-size: cover;
+                    width: 654px;
+                    height: 300px;
+                }
+            }
+
+            @media (max-width: 520px) {
+                .preroll {
+                    background-size: cover;
+                    width: 470px;
+                    height: 250px;
+                }
+            }
+
+            @media (max-width: 430px) {
+                .preroll {
+                    background-size: cover;
+                    width: 376px;
+                    height: 200px;
+                }
+            }
+
+            @media (max-width: 340px) {
+                .preroll {
+                    background-size: cover;
+                    width: 320px;
+                    height: 170px;
+                }
+            }
+        }
+
+        h3 {
+            display: inline-block;
+            max-width: 424px;
+            min-width: 280px;
+            color: #18527c;
+            font-family: 'Avenir',sans-serif;
+            font-size: 32px;
+            line-height: 1.2em;
+            margin: 0 8px 15px 8px;
+        }
+
+        p {
+            color: #adb3b9;
+            font-family: 'Proxima Nova','Helvetica Neue',sans-serif;
+            font-size: 15px;
+            line-height: 1.5em;
+            max-width: 400px;
+            min-width: 280px;
+            margin: 0 auto;
+            margin-left: 8px;
+            margin-right: 8px;
+            text-align: center;
+        }
+    }
+}

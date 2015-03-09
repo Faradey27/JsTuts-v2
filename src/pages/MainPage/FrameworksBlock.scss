@@ -1,0 +1,74 @@
+.FrameworksBlock {
+
+    .frameworks {
+        width: 80%;
+        margin-left: 10%;
+        float: left;
+        padding: 35px 0 45px 0;
+        text-align: center;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin: 10px 20px;
+            padding: 0;
+            overflow: hidden;
+            text-indent: -9000px;
+        }
+
+        .nodejs {
+            width: 100px;
+            height: 50px;
+            background: url('FrameworksBlock/nodejs.png') top left no-repeat;
+        }
+
+        .react {
+            width: 50px;
+            height: 50px;
+            background: url('FrameworksBlock/react.svg') top left no-repeat;
+            background-size: cover;
+        }
+
+        .mongo {
+            width: 50px;
+            height: 50px;
+            background: url('FrameworksBlock/mongo.png') top left no-repeat;
+            background-size: cover;
+        }
+
+        .bootstrap {
+            width: 50px;
+            height: 50px;
+            background: url('FrameworksBlock/bootstrap.png') top left no-repeat;
+            background-size: cover;
+        }
+
+        .ember {
+            width: 50px;
+            height: 50px;
+            background: url('FrameworksBlock/ember.png') top left no-repeat;
+            background-size: cover;
+        }
+
+        .angular {
+            width: 177px;
+            height: 50px;
+            background: url('FrameworksBlock/angular.png') top left no-repeat;
+            background-size: cover;
+        }
+
+        .coffescript {
+            width: 177px;
+            height: 50px;
+            background: url('FrameworksBlock/coffescript.png') top left no-repeat;
+            background-size: cover;
+        }
+
+        .backbone {
+            width: 50px;
+            height: 50px;
+            background: url('FrameworksBlock/backbone.png') top left no-repeat;
+            background-size: cover;
+        }
+    }
+}

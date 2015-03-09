@@ -1,0 +1,71 @@
+.SignUpBlock {
+    background-attachment: scroll;
+    background-position: bottom center;
+    background: url('SignUpBlock/bg.png') top center repeat-x #2f353e;
+    min-width: 300px;
+    background-position-y: -50px;
+
+    .headline {
+        padding: 140px 0 144px 0;
+        text-align: center;
+        min-width: 300px;
+
+        h1 {
+            color: #fff;
+            margin-left: 0;
+            font-family: "FS Albert Web Bold","Helvetica Neue",Arial,sans-serif;
+            font-size-adjust: .49;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 48px;
+            letter-spacing: -0.03em;
+            line-height: 1.1em;
+            text-shadow: 0 2px 5px #191c21;
+            -webkit-font-smoothing: antialiased;
+            width: 100%;
+        }
+
+        h2 {
+            color: #d8dee3;
+            font-family: 'Proxima Nova','Helvetica Neue',sans-serif;
+            font-size: 15px;
+            line-height: 1.5em;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 380px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .button {
+            display: inline-block;
+            font-family: "Proxima Nova Semibold",'Helvetica Neue',Arial,Helvetica,sans-serif;
+            font-size-adjust: .488;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 14px;
+            letter-spacing: .05em;
+            text-shadow: 0 1px 2px #426d06;
+            text-transform: uppercase;
+            width: auto;
+            box-shadow: inset 0 1px 0 0 #a0d642;
+            background: #7cbc27;
+            background: linear-gradient(to bottom,#7cbc27 0,#62a30c 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7cbc27',endColorstr='#62a30c',GradientType=0);
+            border-radius: 3px;
+            padding: 24px 40px 22px;
+            color: #fff;
+        }
+
+        .button:hover {
+            background: lighten(#7cbc27, 5%);
+        }
+    }
+}
