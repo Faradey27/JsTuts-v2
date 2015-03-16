@@ -1,0 +1,47 @@
+.InformBlock {
+    position: relative;
+    top: 20px;
+    float: left;
+    margin: 0;
+    width: 300px;
+    margin-top: 30px;
+
+    .manage {
+        background-image: url('content/icon-manage.png');
+    }
+
+    .learn {
+        background-image: url('content/icon-optimise.png');
+    }
+
+    .experience {
+        background-image: url('content/icon-send.png');
+    }
+
+    h4 {
+        float: left;
+        width: 100%;
+        font-family: "Lato",'Helvetica Neue',Arial,Helvetica,sans-serif;
+        font-size-adjust: .488;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 13px;
+        line-height: .9em;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        color: #2f353e;
+        margin: 0 0 30px 0;
+        padding: 125px 0 0 0;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+
+    p {
+        width: 210px;
+        color: #adb3b9;
+        font-family: 'Proxima Nova','Helvetica Neue',sans-serif;
+        font-size: 15px;
+        line-height: 1.8em;
+        margin: 0 auto;
+    }
+}

@@ -9,12 +9,16 @@ require("./SignUpBlock.scss");
 
 let SignUpBlock = React.createClass({
 
-    mixins: [FluxMixin, Router.State, Router.Navigation],
+    mixins: [Router.Navigation],
 
     getStateFromFlux() {
 
         return {
         };
+    },
+
+    register() {
+        this.transitionTo('register');
     },
 
     render() {
@@ -30,7 +34,7 @@ let SignUpBlock = React.createClass({
                         in convenient way.
                         Getting started is free and only takes a few minutes.
                     </h2>
-                    <a className="button">
+                    <a className="button" onTouchTap={this.register}>
                         Create a free account
                     </a>
                 </div>

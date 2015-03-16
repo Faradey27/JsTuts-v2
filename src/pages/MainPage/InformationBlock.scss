@@ -1,0 +1,35 @@
+.InformationBlock {
+    background: url('VideoBlock/division.png') bottom center no-repeat #f7f8f9;
+    padding: 100px 0 75px 0;
+    text-align: center;
+    width: 100%;
+    float: left;
+
+    .centered {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .informationBlocks {
+            display: flex;
+            min-width: 300px;
+            max-width: 900px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h3 {
+            display: inline-block;
+            max-width: 424px;
+            min-width: 280px;
+            color: #18527c;
+            font-family: 'Avenir',sans-serif;
+            font-size: 32px;
+            line-height: 1.2em;
+            margin: 0 8px 15px 8px;
+        }
+    }
+}

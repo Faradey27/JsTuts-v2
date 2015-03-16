@@ -18,7 +18,7 @@ require("./MenuOverlay.scss");
 const MIN_WINDOW_WIDTH = 660;
 
 let MenuOverlay = React.createClass({
-    mixins: [FluxMixin],
+    mixins: [FluxMixin, Router.Navigation],
 
     getInitialState() {
         return {
@@ -47,14 +47,30 @@ let MenuOverlay = React.createClass({
 
     _getLeftSideItems() {
         return this.state.itemsNames.map((data) => {
-            return <MenuItem text={data} />;
+            return <MenuItem text={data}
+                             handleTap={this.goToPage.bind(this, data)} />;
         });
     },
 
     _getRightSideItems() {
         return this.state.rightItemsNames.map((data) => {
-            return <MenuItem text={data} />;
+
+            return <MenuItem text={data}
+                             handleTap={this.goToPage.bind(this, data)}/>;
         });
+    },
+
+    goToPage(data) {
+        let hash = {
+            "Courses": "courses",
+            "Log in": "login",
+            "Resources": "resource",
+            "Quizzes": "quiz",
+            "Support": "support"
+        };
+        console.log(data)
+        let page = hash[data] || "main";
+        this.transitionTo(page);
     },
 
     render() {

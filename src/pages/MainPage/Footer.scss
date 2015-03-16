@@ -1,0 +1,88 @@
+.Footer {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: hidden;
+
+    .logo {
+        background: 0;
+        border-top: 1px solid #d8dee3;
+        float: left;
+        padding: 30px 0 0 0;
+        width: 100%;
+    }
+
+    .Logo {
+        width: 160px;
+        height: 100%;
+        position: relative;
+        float: left;
+        margin-left: 25px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 19px;
+
+        span {
+            position: relative;
+            margin-left: 10px;
+        }
+    }
+
+    .footerBlock {
+        float: left;
+        width: 145px;
+        margin: 0 2.5% 4% 0;
+
+        .title {
+            text-transform: uppercase;
+            font-family: "Lato",'Helvetica Neue',Arial,Helvetica,sans-serif;
+            font-size-adjust: .488;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 12px;
+            line-height: 1.4em;
+            text-transform: uppercase;
+            letter-spacing: .05em;
+            width: 155px;
+            margin: 0 0 20px 0;
+            color: #2f353e;
+        }
+
+        .text {
+            padding: 0 0 8px 0;
+            color: #adb3b9;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .text:hover {
+            color: #2f353e;
+        }
+    }
+
+    .newsletter {
+        input {
+            float: left;
+            width: 200px;
+            margin: 12px 0 0 -1px;
+            border-color: #d8dee3 !important;
+            border-radius: 3px;
+            font-family: "Helvetica Neue",Arial,sans-serif;
+            font-size: 1em;
+            padding: 17px 0 17px 3%;
+            color: #2f353e;
+            border: 1px solid;
+            outline: 0;
+            line-height: normal;
+        }
+
+        input:focus {
+            border-color: #2f353e !important;
+        }
+    }
+}
